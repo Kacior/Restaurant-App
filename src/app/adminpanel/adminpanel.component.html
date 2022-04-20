@@ -1,0 +1,14 @@
+<h2>Change persistence: </h2>
+<div class="persistence">
+<button (click)="changePersistence('local')">Local persistence</button>
+<button (click)="changePersistence('none')">None persistence</button>
+<button (click)="changePersistence('session')">Session persistence</button>
+</div>
+<h2>roles: 1 - client, 2 - admin, 3 - manager</h2>
+<div class="users" *ngFor="let j of userList" >
+    <h4>E-mail: {{j.email}}      Role number:  {{j.role}}</h4>
+    <button (click)="removeUser(j.uid)">Remove user</button>
+    <button (click)="makeClient(j.uid, j.email)">CLIENT</button>
+    <button (click)="makeAdmin(j.uid, j.email)">ADMIN</button>
+    <button (click)="makeManager(j.uid, j.email)">MANAGER</button>
+</div>

@@ -1,0 +1,17 @@
+<div>
+    <h2>Sign up</h2>
+    Email:
+    <input type="text" #emailSignup/>
+    Password: 
+    <input type="text" #passwordSignup/>
+    <button (click)="onSignup(emailSignup.value, passwordSignup.value)">Sign up</button>
+</div>
+<hr>
+<div>
+    <h2>Sign in</h2>
+    Email:
+    <input type="text" #email/>
+    Password: 
+    <input type="password" #password/>
+    <button (click)="onSignin(email.value, password.value)">Sign in</button>
+</div>

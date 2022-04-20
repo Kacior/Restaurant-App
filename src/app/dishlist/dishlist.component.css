@@ -1,0 +1,7 @@
+.dish-wrapper{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+padding:10px
+}
+

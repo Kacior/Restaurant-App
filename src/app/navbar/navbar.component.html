@@ -1,0 +1,27 @@
+<div class="wrap">
+  <ul class="topnav" id="myTopnav">
+    <li> <a routerLink="/mainmenu" class="active">Home</a></li>
+    <li>    <a routerLink="/dishlist">Dishes</a>
+    </li>
+    <li>    <a *ngIf="currentRole==3" routerLink="/adddish">Add Dish</a>
+    </li>
+    <li>
+      <a routerLink="/trolley">Trolley</a>
+
+    </li>
+    <li>
+      <a *ngIf="currentRole==2" routerLink="/adminpanel">Admin Panel</a>
+
+    </li>
+    <li>
+      <a *ngIf="!isLoggedIn" routerLink="/login">Login</a>
+
+    </li>
+    <li class="login">
+      <a  *ngIf="isLoggedIn">{{this.currentUser}}</a>
+    </li>
+    <li class="login">    <button *ngIf="isLoggedIn" (click)="handleLogout()">Logout</button>
+    </li>
+   
+  </ul>
+</div>

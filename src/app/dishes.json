@@ -1,0 +1,195 @@
+{
+    "dishes": [
+        {
+        "name": "sushi",
+        "kitchen": "japanese",
+        "type": "dinner",
+        "category": "meat",
+        "ingredients": [
+            "rice",
+            "soysauce",
+            "fish"
+        ],
+        "serveLimit": 12,
+        "price": 60,
+        "description": "sushi, a staple rice dish of Japanese cuisine, consisting of cooked rice flavoured with vinegar and a variety of vegetable, egg, or raw seafood garnishes and served cold.",
+        "imageSrc": "assets/food.jpg",
+        "opinions": []
+    },
+    {
+        "name": "pierogi ruskie",
+        "kitchen": "polish",
+        "type": "dinner",
+        "category": "vegetarian",
+        "ingredients": [
+            "white cheese",
+            "potatoes",
+            "flour"
+        ],
+        "serveLimit": 50,
+        "price": 30,
+        "description": "Pierogi are filled dumplings made by wrapping unleavened dough around a savoury or sweet filling and cooking in boiling water.",
+        "imageSrc": "assets/food.jpg",
+        "opinions": []
+    },
+    {
+        "name": "spaghetti carbonara",
+        "kitchen": "italian",
+        "type": "dinner",
+        "category": "meat",
+        "ingredients": [
+            "eggs",
+            "pasta",
+            "pecorino romano",
+            "guanciale"
+        ],
+        "serveLimit": 100,
+        "price": 20,
+        "description": "Pasta with creamy sauce and meat",
+        "imageSrc": "assets/food.jpg",
+        "opinions": []
+    },
+    {
+        "name": "spaghetti bolognese",
+        "kitchen": "italian",
+        "type": "dinner",
+        "category": "meat",
+        "ingredients": [
+            "pasta",
+            "tomatoes",
+            "meat"
+        ],
+        "serveLimit": 100,
+        "price": 30,
+        "description": "Pasta with meat based sauce",
+        "imageSrc": "assets/food.jpg",
+        "opinions": []
+    },
+    {
+        "name": "ramen",
+        "kitchen": "japanese",
+        "type": "soup",
+        "category": "meat",
+        "ingredients": [
+            "stock pot",
+            "noodles"
+        ],
+        "serveLimit": 100,
+        "price": 30,
+        "description": "Soup with noodles",
+        "imageSrc": "assets/food.jpg",
+        "opinions": []
+    },
+    {
+        "name": "borscht",
+        "kitchen": "polish",
+        "type": "soup",
+        "category": "wegetarian",
+        "ingredients": [
+            "beetroot",
+            "stock pot"
+        ],
+        "serveLimit": 200,
+        "price": 10,
+        "description": "Soup based on beetroot, spicy.",
+        "imageSrc": "assets/food.jpg",
+        "opinions": []
+    },
+    {
+        "name": "spaghetti bolognese with extra meat",
+        "kitchen": "italian",
+        "type": "dinner",
+        "category": "meat",
+        "ingredients": [
+            "pasta",
+            "tomatoes",
+            "meat"
+        ],
+        "serveLimit": 100,
+        "price": 40,
+        "description": "Pasta with extra meat based sauce",
+        "imageSrc": "assets/food.jpg",
+        "opinions": []
+    },
+    {
+        "name": "lasagna",
+        "kitchen": "italian",
+        "type": "dinner",
+        "category": "meat",
+        "ingredients": [
+            "pasta",
+            "tomatoes",
+            "meat"
+        ],
+        "serveLimit": 100,
+        "price": 25,
+        "description": "Pasta with meat based sauce",
+        "imageSrc": "assets/food.jpg",
+        "opinions": []
+    },
+    {
+        "name": "pancakes",
+        "kitchen": "american",
+        "type": "breakfast",
+        "category": "vegetarian",
+        "ingredients": [
+            "flour",
+            "chocolate",
+            "maple syrup"
+        ],
+        "serveLimit": 100,
+        "price": 30,
+        "description": "Pasta with meat based sauce",
+        "imageSrc": "assets/food.jpg",
+        "opinions": []
+    },
+    {
+        "name": "burrito",
+        "kitchen": "mexican",
+        "type": "dinner",
+        "category": "meat",
+        "ingredients": [
+            "rice",
+            "cheese",
+            "meat"
+        ],
+        "serveLimit": 100,
+        "price": 10,
+        "description": "Flour tortilla folded around a filling",
+        "imageSrc": "assets/food.jpg",
+        "opinions": []
+    },
+    {
+        "name": "pizza",
+        "kitchen": "italian",
+        "type": "dinner",
+        "category": "meat",
+        "ingredients": [
+            "dough",
+            "tomatoes",
+            "cheese"
+        ],
+        "serveLimit": 100,
+        "price": 20,
+        "description": "Pasta with meat based sauce",
+        "imageSrc": "assets/food.jpg",
+        "opinions": []
+    },
+    {
+        "name": "hot-dog",
+        "kitchen": "american",
+        "type": "dinner",
+        "category": "meat",
+        "ingredients": [
+            "sausage",
+            "bread",
+            "ketchup"
+        ],
+        "serveLimit": 100,
+        "price": 5,
+        "description": "Sausage inside bread",
+        "imageSrc": "assets/food.jpg",
+        "opinions": []
+    }
+    ]
+}

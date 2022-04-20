@@ -1,0 +1,5 @@
+<li *ngFor="let item of orderList">
+    <h2>{{item.name}}</h2>
+</li>
+<h2>Sum: {{this.sum | currency: 'USD'}}</h2>
+<button (click)="submitOrder()">Submit order</button>

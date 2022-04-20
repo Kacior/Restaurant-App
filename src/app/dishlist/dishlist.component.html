@@ -1,0 +1,4 @@
+<div class="dish-wrapper">
+<app-dish (removeDishEvent)="removeDish($event)"  *ngFor="let j of listOfDishes | paginate: { itemsPerPage: 4, currentPage: p }" [dish]=j [ngStyle] = "{'background': (j.price >= max) ? 'red' : (j.price<=min) ? 'green' : 'white'}"></app-dish>
+</div>
+<pagination-controls (pageChange)="p = $event"></pagination-controls>

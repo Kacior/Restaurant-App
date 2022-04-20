@@ -1,0 +1,11 @@
+.usermenu{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.numOfOrders{
+    border: solid black 1px;
+    border-radius: 5px;
+}

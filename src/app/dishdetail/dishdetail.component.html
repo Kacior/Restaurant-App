@@ -1,0 +1,15 @@
+<div class="dish-element">
+    <div class="dish-name"><h1>{{dish.name | uppercase}}</h1></div>
+    <div class="dish-category"><h2>{{dish.kitchen | uppercase}}, {{dish.type}} / {{dish.category}} </h2></div>
+    <div class="dish-price"><h2>Price: {{dish.price | currency: 'USD'}}</h2></div>
+    <div class="dish-description"><h2>  {{dish.description}}</h2></div>
+
+    <div class="dish-image"><img [src]=dish.imageSrc></div>
+    <div class="dish-price"><h2></h2></div>
+    <div class="buttons">
+        <button class="orderDish" (click)="orderDish()" [ngStyle]="addStyleObject()">+</button>
+        <button class="returnDishOrder" (click)="returnDishOrder()" [ngStyle]="returnStyleObject()">-</button>
+        <div class="dish-remaining" [ngStyle]="dishInfoStyleObject()">{{avaiableDishes}} dishes remaining.</div>
+        <div class="outofstock">{{this.outOfStockMessage}}</div>
+    </div>
+</div>

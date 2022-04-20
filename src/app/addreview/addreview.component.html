@@ -1,0 +1,15 @@
+<form [formGroup]="addReviewForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label>Title</label>
+        <input type="text" class="form-control" formControlName="title">
+    </div>
+    <div class="form-group">
+        <label>Nick</label>
+        <input type="text" class="form-control" formControlName="nick">
+    </div>
+    <div class="form-group">
+        <label>Review</label>
+        <input type="text" class="form-control" formControlName="review">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit Review</button>
+</form>
