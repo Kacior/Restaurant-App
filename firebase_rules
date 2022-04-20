@@ -1,0 +1,12 @@
+{
+  "rules": {
+  	"users": {
+      ".read": true,
+      ".write": true
+    },
+    "dishes": {
+      ".read": true,
+      ".write": "root.child('users').child(auth.uid).child('role').val()==2 || data.child(auth.uid).child('role').val()==3",
+    }
+  }
+}
